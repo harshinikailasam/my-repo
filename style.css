@@ -133,7 +133,7 @@ section {
 } 
 .main-text3{
     position: absolute; 
-    top: 305%; 
+    top: 300%; 
     left: 47%; 
     transform: translate(-50%, -50%); 
     text-align: center;  
@@ -141,7 +141,7 @@ section {
     }
 .main-image3a{
     position: absolute; 
-    top: 290%; 
+    top: 285%; 
     left: 30%
 }
 .main-text4{
