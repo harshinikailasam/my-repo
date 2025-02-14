@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+header {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav .logo img {
+    height: 100px;
+}
+ul.navigation {
+    display: flex;
+    list-style: none;
+}
+ul.navigation li {
+    margin-right: 20px;
+}
+ul.navigation li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+}
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+.main-text1a h1, .main-text4 h3, .main-text5 h3, .main-text6 h3, .main-text7 h3, .main-text8 h3, .main-text9 h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    color:white;
+    margin-bottom: 20px;
+    
+}
+.main-text1a h2, .main-text4 p, .main-text5 p, .main-text6 p, .main-text7 p, .main-text8 p, .main-text9 p {
+    font-size: 1.50rem;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+}
+.main-image img, .main-image4 img {
+    max-width: 100%;
+    height: auto;
+}
+.main-image, .main-image2, .main-image3a, .main-image3b, .main-image4 {
+    margin-top: 30px;
+}
+.main-text1a{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;  
+    max-width: 800px;  
+    }
+    .main-text1b{
+        position: absolute; 
+        bottom: -25%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        text-align: center;  
+        max-width: 800px;  
+        }
+ .main-text1b{
+    font-size: small;
+    color: silver;
+ } 
+ .main-text1b button {
+    background-color: rgb(62, 144, 244);
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 2px;
+    transition: background-color 0.3s;
+}  
+.main-text2a{
+    position: absolute; 
+    top: 175%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;  
+    max-width: 800px;  
+    }
+.main-text2a h1, .main-text3 h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.main-text2a h2, .main-text3 h2{
+    color: black;
+    font-size: 1.50rem;
+    font-weight: lighter;
+}
+
+    .main-text2b{
+        position: absolute; 
+        bottom: -150%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        text-align: center;  
+        max-width: 800px;  
+        }
+ .main-text2b{
+    font-size: small;
+    color: rgba(59, 58, 58, 0.294);
+ } 
+ .main-text2b button, .main-text3 button, .main-text4 button {
+    background-color: rgb(62, 144, 244);
+    color: white;
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 2px;
+    transition: background-color 0.3s;
+} 
+.main-text3{
+    position: absolute; 
+    top: 305%; 
+    left: 47%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;  
+    max-width: 800px;  
+    }
+.main-image3a{
+    position: absolute; 
+    top: 290%; 
+    left: 30%
+}
+.main-text4{
+    position: absolute; 
+    top: 450%; 
+    left: 70%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;  
+    max-width: 800px;  
+} 
+footer {
+    background-color: rgba(225, 214, 214, 0.656);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: black;
+    font-size: 14px;
+}
+
+
+
